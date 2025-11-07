@@ -16,15 +16,15 @@ a[href] {
     text-decoration: none;
 }
 
-a:visited {
+a[href]:visited {
     font-style: italic;
 }
 
-a:hover {
+[href]:hover {
     text-decoration: underline;
 }
 
-a:active {
+[href]:active {
     background-color: var(--color-light-grey);
 }
 
